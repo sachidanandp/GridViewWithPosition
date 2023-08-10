@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val listData = ArrayList<GridModel>()
-        for (i in 1..21){
+        for (i in 1..24){
             listData.add(GridModel(i))
         }
 
